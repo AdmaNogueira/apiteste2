@@ -5,10 +5,12 @@ import { openDb } from './conexao/configDB.js';
 //Classes Create Table
 
 import CreateTableAluno from './models/aluno.js';
+import CreateTableCurso from './models/curso.js'
 
 //Classes Rotes
 
 import AlunoController from './controller/alunoController.js';
+import CursoController from './controller/cursoController.js';
 
 const app = express();
 const port = 3000;
@@ -20,8 +22,10 @@ app.use(cors());
 //Função DataBase Init
 openDb();
 CreateTableAluno.aluno();
+CreateTableCurso.curso();
 
 AlunoController.rotas(app);
+CursoController.rotas(app);
 
 
 app.listen(port, (err) => {
