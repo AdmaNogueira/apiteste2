@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.carousel {
+    height: 500px;
+}
+
+img {
+    height: 500px;
+}
+
+.listaImg {
+    margin-top: 60px;
+    height: 450px;
+    width: 1420px;
+}
+
+.section2 {
+    display: flex;
+    background-color: #073879;
+    padding: 80px;
+}
+
+.section2 p {
+    color: white;
+    font-size: 25px;
+}
+
+.section2 h1 {
+    font-weight: 600;
+    color: white;
+    font-family: 'Righteous', monospace;
+}
+
+.missao {
+    margin-top: 120px;
+}
+
+span {
+    color: #073879;
+    font-weight: 800px;
+    font-family: 'Righteous', monospace;
+}
+
+.section3 {
+    display: flex;
+}
+
+.content {
+    margin: 0px 0px 20px 0px;
+    padding: 80px 80px 0px 80px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content > .texto {
+    position: relative;
+    max-width: 600px;
+}
+
+.content > .texto > p{
+    margin: 50px 0px 50px 0px;
+    font-size: 20px;
+}
+
+.content > .texto > p > span {
+    font-weight: bold;
+}
+
+.content > .texto > h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content > .texto > h2 > span {
+    color: #073879;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+button {
+    padding: 20px;
+}

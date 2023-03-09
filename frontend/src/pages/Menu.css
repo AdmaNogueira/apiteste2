@@ -1,0 +1,13 @@
+.cursosImg {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elements {
+    padding: 60px;
+}
